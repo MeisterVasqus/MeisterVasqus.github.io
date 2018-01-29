@@ -88,7 +88,7 @@ body {
 }
 /*Bild von der Home seite*/
 .Bild {
-	background-image: url("C:C:\Users\MeisterVasqus\Desktop\Github\MeisterVasqus.github.io\Bilder\Cocktails.jpg");
+	background-image: url("Cocktails.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 120%;
