@@ -9,14 +9,14 @@ body {
 	text-align: center;
 	width: 100%;
 	margin: auto;
-	margin-top: 1%;
+	margin-top: 2%;
 }
 
 .links a:link, a:visited, button {
-	font-size: 100%;
+	font-size: 150%;
 	background-color: black;
 	color: #B8860B;
-	padding: 2% 2%;
+	padding: 1% 1%;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -35,15 +35,11 @@ body {
 
 .dropdown-content {
     display: none;
-    position: absolute;
+	position: absolute;
+	text-decoration: none;
     background-color: #000000;
+	color: #B8860B;
 	max-width: 100%;
-}
-
-.dropdown-content a {
-    color: #B8860B;
-    text-decoration: none;
-    display: block;
 }
 
 .dropdown-content a:hover {background-color: #FFE4C4}
