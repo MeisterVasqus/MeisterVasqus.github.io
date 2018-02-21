@@ -6,48 +6,75 @@ body {
 }
 
 .links {
-	text-align: center;
 	width: 100%;
-	margin: auto;
-	margin-top: 2%;
-}
-
-.links a:link, a:visited, button {
-	font-size: 150%;
-	background-color: black;
+	height: 70px;
 	color: #B8860B;
-	padding: 1% 1%;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	border: none;	
-	cursor: pointer;
 }
 
-.links a:hover, a:active, button:hover{
+.links > ul {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style-type: none;
+}
+
+.links > ul > li {
+	float: left;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 15px 20px;
+	height: 40px;
+	line-height:40px;
+	color: #B8860B;
+	text-decoration: none;
+}
+
+.nav-item:hover {
 	background-color: #FFE4C4;
 }
 
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
+.nav-content {
 	position: absolute;
-	text-decoration: none;
-    background-color: #000000;
+	top: 70px;
+	overflow: hidden;
 	color: #B8860B;
-	max-width: 100%;
+	max-height: 0;
 }
 
-.dropdown-content a:hover {background-color: #FFE4C4}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.nav-content a {
+	text-decoration: none;
+	color: #B8860B;
 }
 
+.nav-content a:hover {
+	background-color: #FFE4C4;
+}
+
+.nav-sub {
+	padding: 20px;
+}
+
+.nav-sub ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.nav-sub ul li a {
+		display: inline-block;
+		padding: 5px 0;
+}
+
+.nav-item:focus {
+	background-color: #FFE4C4;
+}
+
+.nav-item:focus ~ .nav-content {
+	max-height: 400px;
+
+}
 .header-Eins {
 	color: #B8860B;
 	font-size: 150%;
